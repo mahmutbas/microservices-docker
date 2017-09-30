@@ -1,0 +1,1 @@
+docker run -P -d --name mongodb mongo

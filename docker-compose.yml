@@ -1,0 +1,21 @@
+version: '2'
+
+services:
+
+      customer:
+         image: microservice/customer:latest
+         container_name: xcustomer
+         ports:
+          - "37701:8080"
+         links:
+          - mongodb
+      product:
+         image: microservice/product:latest
+         container_name: xproduct
+         ports:
+          - "37702:8080"
+         links:
+          - mongodb
+      mongodb:
+         image: mongo:latest
+         container_name: xmongo
