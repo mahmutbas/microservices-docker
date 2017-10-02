@@ -1,6 +1,6 @@
 ## Purpose
 
-Spring boot and mongo db using on docker. 
+Spring boot and mongo db using on docker.
 
 ## Steps 
 1- Have docker deamon, Pull all commits and then 
