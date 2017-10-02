@@ -3,7 +3,7 @@
 Spring boot and mongo db using on docker. 
 
 ## Steps 
-1- Have docker deamon, Pull commits and then 
+1- Have docker deamon, Pull all commits and then 
 2- Under app modules, you can reach to Dockerfile's. Build them and create images
 
 Run on terminal:
